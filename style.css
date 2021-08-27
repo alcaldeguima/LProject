@@ -1,0 +1,121 @@
+body{
+    background-color: #f6f6f6;
+}
+.header {
+	background: #070908;
+	padding: 5px 20px;  
+    height:100px;
+}
+.box {
+	position: relative;
+	width: 1400px;
+	margin: 0 auto;
+}
+.main{
+    width: 1400px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+#logoH{
+    height:100px;
+    margin: 0 auto;
+}
+nav {
+	position: absolute;
+	top: 30px;
+	left: 1200px;
+    background-color: rgba(134, 107, 158, 0.158);
+    padding: 10px;
+
+
+}
+
+nav a {
+	text-transform: uppercase;
+	color: rgb(122, 16, 143);
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+} 
+nav:hover{
+    box-sizing: border-box;
+	border: 2px solid #84208d;
+	border-radius: 10px;
+}
+nav a:hover{
+    color: rgb(206, 38, 206);
+}
+
+.logo img {
+    max-width: 600px;
+    left: 100px;
+    float:left;
+    padding-bottom: 100px;
+}
+.textoSquad{
+    display: block;
+}
+.textoSquad h2{
+        margin-top: 40px; 
+        padding-left: 850px;
+        font-weight: bold;  
+        font-size: 50px;
+}
+.textoSquad b{
+    color: rgb(206, 38, 206);
+}
+
+
+#seta{
+    height: 340px;
+    margin-left: 420px;
+    transform: rotate(320deg);
+    border: 1px solid #f6f6f6;
+    border-radius: 30px;
+}
+
+.list{
+    padding-top: 50px;
+    display: block;
+    margin-left: 60px;
+}    
+    
+.list ul{
+    list-style: circle;
+    padding: 15px;
+    padding-top: 5px;
+    display: inline;
+}
+.itens{
+    font-style: bold;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.video{
+    position: absolute;
+    left: 880px;
+    top: 690px;
+    width: 40%;
+    height: 40%;
+    background-color: black;
+    border: 5px solid rgb(206, 38, 206);
+    border-radius: 10px;
+    margin-right: 90px ;
+}
+
+footer{
+    background:	url("background.jpg");
+	text-align: center;
+	padding: 10px 772px;
+    bottom: 0;
+    display: inline-block;
+}
+footer p{
+    color: white;
+    text-indent: inherit;
+    background-color: #070908;
+    font-size: 11px;
+    padding:5px;
+    display: inline-block;
+}
